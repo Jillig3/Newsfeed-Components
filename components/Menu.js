@@ -24,13 +24,14 @@ let menuItems = [
 
     menuDiv.appendChild(list);
     list.appendChild(link);
-  
+
+      
     // The 'menuMaker' takes an array of menu items as its only argument.
 
     // Step 2: Inside the function, iterate over the array creating a list item <li> element for each item in the array.
     // Add those items to the <ul>
-    menuItems.forEach(menuItem => {
-      // const link = document.createElement('li');
+    const menuElement = menuItems
+    menuItems.forEach(menuElement => {
       list.appendChild(link);
       // item.textcontent
     })
